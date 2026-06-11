@@ -109,6 +109,163 @@ Each model was evaluated using different performance metrics such as:
 
 The models were compared to determine which algorithm achieved the best classification accuracy on the testing dataset.
 
+# Machine Learning Project - Linear Regression & Neural Network Prediction
+
+## 📌 Project Overview
+This project focuses on understanding the basics of **Machine Learning Algorithms**, especially **Supervised Learning** using **Linear Regression** and **Neural Networks**.
+
+The main objective of this project is to:
+- Learn the fundamentals of machine learning
+- Understand supervised learning techniques
+- Use Linear Regression to predict:
+  - Single-dimensional data
+  - Two-dimensional data
+- Compare Linear Regression prediction with Neural Network prediction
+- Analyze prediction accuracy and performance
+- Explore how both models can work together for better prediction results
+
+---
+
+# 📚 Introduction to Machine Learning
+
+Machine Learning (ML) is a branch of Artificial Intelligence (AI) that allows computers to learn from data and make predictions without being explicitly programmed.
+
+Machine learning models improve automatically through experience and data analysis.
+
+---
+
+# 🤖 Types of Machine Learning
+
+Machine Learning is mainly divided into three categories:
+
+1. Supervised Learning  
+2. Unsupervised Learning  
+3. Reinforcement Learning  
+
+In this project, we mainly focus on **Supervised Learning**.
+
+---
+
+# 📖 Supervised Learning
+
+Supervised Learning is a machine learning technique where the model learns from labeled data.
+
+The dataset contains:
+- Input Features (X)
+- Target Output (Y)
+
+The algorithm learns the relationship between input and output to make predictions on unseen data.
+
+### Examples
+- House price prediction
+- Student marks prediction
+- Sales forecasting
+
+---
+
+# 📈 Linear Regression
+
+Linear Regression is one of the most important supervised learning algorithms used for predicting continuous numerical values.
+
+It finds the relationship between dependent and independent variables.
+
+## Linear Regression Formula
+
+\[
+y = mx + b
+\]
+
+Where:
+- `y` = Predicted output
+- `m` = Slope
+- `x` = Input feature
+- `b` = Intercept
+
+---
+
+# 🔹 Single-Dimensional Linear Regression
+
+In single-dimensional linear regression:
+- Only one input feature is used
+- The model predicts output using a single variable
+
+### Example
+Predicting house prices using only house size.
+
+### Steps
+1. Load dataset
+2. Clean and preprocess data
+3. Split data into training and testing sets
+4. Train Linear Regression model
+5. Predict output
+6. Evaluate model performance
+
+---
+
+# 🔹 Two-Dimensional Linear Regression
+
+In two-dimensional regression:
+- Two input features are used
+- The model learns relationships between multiple variables
+
+### Example
+Predicting house prices using:
+- House size
+- Number of rooms
+
+### Advantages
+- Better prediction accuracy
+- Handles more information
+- Improved learning capability
+
+---
+
+# 🧠 Neural Network
+
+Neural Networks are advanced machine learning models inspired by the human brain.
+
+A Neural Network contains:
+- Input Layer
+- Hidden Layers
+- Output Layer
+
+Neural Networks can learn complex patterns from data and provide highly accurate predictions.
+
+### Features
+- Handles nonlinear data
+- Learns complex relationships
+- Better for large datasets
+- High prediction capability
+
+---
+
+# ⚖️ Comparison Between Linear Regression and Neural Network
+
+| Feature | Linear Regression | Neural Network |
+|----------|------------------|----------------|
+| Complexity | Simple | Complex |
+| Training Speed | Fast | Slower |
+| Accuracy | Good for linear data | Better for complex data |
+| Data Requirement | Less data | More data |
+| Interpretability | Easy | Difficult |
+
+---
+
+# 🔍 Model Comparison
+
+In this project:
+- Linear Regression predictions are compared with Neural Network predictions
+- Both models are trained using the same dataset
+- Their performance and accuracy are analyzed
+
+### Evaluation Metrics
+- Mean Squared Error (MSE)
+- Root Mean Squared Error (RMSE)
+- R² Score
+- Prediction Accuracy
+
+
+
 ---
 
 # Technologies Used
