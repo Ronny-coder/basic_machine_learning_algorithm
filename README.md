@@ -264,7 +264,135 @@ In this project:
 - R² Score
 - Prediction Accuracy
 
+# 🔍 Unsupervised Learning
 
+Unsupervised Learning is a type of machine learning where the model learns patterns from unlabeled data.
+
+Unlike supervised learning:
+- There is no target/output label
+- The algorithm identifies hidden structures and relationships in the dataset automatically
+
+### Applications
+- Customer segmentation
+- Data grouping
+- Recommendation systems
+- Pattern recognition
+- Image compression
+
+---
+
+# 📊 K-Means Clustering
+
+K-Means Clustering is one of the most popular unsupervised learning algorithms.
+
+It is used to divide data into different groups or clusters based on similarity.
+
+The algorithm works by:
+1. Selecting the number of clusters (K)
+2. Initializing cluster centroids
+3. Assigning data points to the nearest centroid
+4. Updating centroid positions
+5. Repeating the process until convergence
+
+---
+
+# 🔹 Objective of K-Means
+
+The main goal of K-Means is to:
+- Minimize the distance between data points and their cluster centroid
+- Group similar data points together
+
+### Features
+- Simple and efficient
+- Fast clustering algorithm
+- Works well on structured datasets
+- Easy to visualize clusters
+
+---
+
+# 📈 K-Means Clustering Workflow
+
+1. Load dataset
+2. Preprocess and normalize data
+3. Choose number of clusters (K)
+4. Train K-Means model
+5. Assign clusters to data points
+6. Visualize clustered data
+7. Analyze cluster performance
+
+---
+
+# 📉 PCA (Principal Component Analysis)
+
+Principal Component Analysis (PCA) is a dimensionality reduction technique used in machine learning.
+
+PCA reduces the number of input features while preserving important information from the dataset.
+
+It transforms high-dimensional data into lower-dimensional space.
+
+---
+
+# 🔹 Why PCA is Used
+
+PCA helps to:
+- Reduce dataset complexity
+- Improve model performance
+- Remove redundant features
+- Reduce computation time
+- Visualize high-dimensional data easily
+
+---
+
+# 📊 PCA Workflow
+
+1. Standardize the dataset
+2. Compute covariance matrix
+3. Calculate eigenvalues and eigenvectors
+4. Select principal components
+5. Transform data into lower dimensions
+6. Visualize reduced dataset
+
+---
+
+# ⚖️ Comparison Between K-Means and PCA
+
+| Feature | K-Means Clustering | PCA |
+|----------|-------------------|-----|
+| Type | Clustering Algorithm | Dimensionality Reduction |
+| Purpose | Group similar data | Reduce feature dimensions |
+| Output | Clusters | Principal Components |
+| Learning Type | Unsupervised Learning | Unsupervised Learning |
+| Main Goal | Data segmentation | Feature extraction |
+
+---
+
+# 🔗 Combining K-Means and PCA
+
+In this project:
+- PCA is used to reduce dataset dimensions
+- K-Means is used to cluster the reduced data
+- PCA improves clustering visualization and efficiency
+
+### Benefits of Combining Both
+- Faster computation
+- Better visualization
+- Reduced noise in data
+- Improved clustering performance
+
+---
+
+# 📊 Visualization and Analysis
+
+The project includes:
+- Cluster visualization using graphs
+- PCA transformed feature plots
+- Cluster comparison
+- Data pattern analysis
+
+Visualization helps understand:
+- Similarity between data points
+- Cluster separation
+- Feature importance
 
 ---
 
